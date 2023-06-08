@@ -1,0 +1,14 @@
+.transition {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  cursor: pointer;
+  transition: all 0.8s;
+}
+
+.transition:hover {
+  /* margin-top: 150px; */
+  background-color: green;
+  border-radius: 100%;
+  transition: all 0.5s;
+}
